@@ -1,5 +1,4 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import HomeView from '../views/HomeView.vue';
 import LayoutFull from '@/layouts/LayoutFull.vue';
 
 const router = createRouter({
@@ -12,18 +11,18 @@ const router = createRouter({
       children: [
         {
           path: '',
-          name: 'Home',
-          component: HomeView,
-        },
-        {
-          path: '/imoveis/adicionar',
-          name: 'ProductAdd',
-          component: () => import('@/views/ProductAdd.vue'),
+          name: "Home",
+          component: () => import('@/views/HomeView.vue'),
         },
         {
           path: '/login',
           name: 'Login',
           component: () => import('@/views/LoginView.vue'),
+        },
+        {
+          path: '/imoveis/adicionar',
+          name: 'ImovelAdd',
+          component: () => import('@/views/ImovelAdd.vue'),
         },
       ],
     },
