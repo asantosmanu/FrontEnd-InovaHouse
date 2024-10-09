@@ -45,14 +45,16 @@ button:hover {
   background-color: #e07626;
 }
 .menu{
-  margin-top: -60px;
+  margin-top: -5%;
   margin-bottom: 40px;
-  margin-left: 200px;
+  margin-left: 38%;
   /* background-color: #ff8c32; */
   padding: auto;
 }
 .logo {
   width: 100px;
+  margin-left: 120px;
+  margin-top: 20px;
 }
 .icons {
   display: flex;

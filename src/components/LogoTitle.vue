@@ -2,8 +2,8 @@
 </script>
 <template>
   <div class="logo">
-    <img src="@/assets/logo.png" alt="FakeStore Logo" />
-    <h2>FakeStore</h2>
+    <img src="@/assets/logo.png" alt="InovaHouse Logo" />
+    <h2>InovaHouse</h2>
   </div>
 </template>
 

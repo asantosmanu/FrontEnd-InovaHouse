@@ -1,5 +1,6 @@
 <script setup></script>
 
+
 <template>
   <!-- <div class="icons"> -->
     <!-- <i class="mdi mdi-magnify" /> -->
@@ -48,6 +49,7 @@ button:hover {
   padding: auto;
 }
 .logo {
+  margin-left: 50px;
   width: 100px;
 }
 /* .icons {
